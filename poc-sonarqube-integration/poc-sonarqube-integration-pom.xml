@@ -13,6 +13,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <spring-boot.version>3.3.3</spring-boot.version>
         <velocity.engine.version>2.3</velocity.engine.version>
         <sendgrid.version>4.10.3</sendgrid.version>
     </properties>
