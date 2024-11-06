@@ -5,13 +5,13 @@
     <parent>
         <groupId>com.e2e</groupId>
         <artifactId>common-config</artifactId>
-        <version>1.12.0</version>
+        <version>1.13.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>sonarqube-integration</artifactId>
-    <version>1.2.0</version>
-    <name>common-config</name>
+    <version>1.3.0</version>
+    <name>sonarqube-integration</name>
     <description>Hosting properties and pom files for sonarqube integration</description>
     <packaging>pom</packaging>
 
