@@ -10,10 +10,14 @@
 
     <groupId>com.e2e</groupId>
     <artifactId>common-config</artifactId>
-    <version>1.10.0</version>
+    <version>1.11.0</version>
     <name>common-config</name>
     <description>Hosting common properties and pom files</description>
     <packaging>pom</packaging>
+
+    <modules>
+        <module>sonarqube-integration</module>
+    </modules>
 
     <distributionManagement>
         <repository>
@@ -46,16 +50,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity-engine-core</artifactId>
-            <version>${velocity.engine.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sendgrid</groupId>
-            <artifactId>sendgrid-java</artifactId>
-            <version>${sendgrid.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
