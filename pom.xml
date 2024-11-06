@@ -10,7 +10,7 @@
 
     <groupId>com.e2e</groupId>
     <artifactId>common-config</artifactId>
-    <version>1.14.0</version>
+    <version>1.15.0</version>
     <name>common-config</name>
     <description>Hosting common properties and pom files</description>
     <packaging>pom</packaging>
