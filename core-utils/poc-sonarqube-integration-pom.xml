@@ -9,7 +9,7 @@
         <relativePath>../master-pom.xml</relativePath>
     </parent>
 
-    <artifactId>core-utils</artifactId>
+    <artifactId>sonarqube-integration</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
